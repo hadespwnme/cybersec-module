@@ -1,4 +1,3 @@
-
 # Offensive Security
    *Apa itu Offensive Security?*
    > Singkatnya, offensive security adalah cara untuk
