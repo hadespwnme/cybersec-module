@@ -24,3 +24,9 @@ Akan tetapi hal ini rentan terhadap berbagai jenis tipe kelemahan, contoh:
 * Dapat melihat dan memodifikasi akun orang lain menggunakan id uniknya. Sebagai contoh kamu pasti tidak ingin orang lain melihat transaksi yang dilakukan user lainnya.
 * Mampu menelusuri halaman yang membutuhkan hak otentikasi, tanpa melakukan otentikasi terlebih dahulu. Sebagai contoh kalian tidak ingin kan pesan masuk yang ada di email kalian terbaca orang lain.
 
+## Injection
+Penyerang dapat meng-exploitasi sebuah website dengan memasukkan kode berbahaya bersama dengan input pencarian mereka. Hal ini terjadi karena kurangnya validasi dan sanitasi untuk masukan oleh user. Contoh XSS dan SQLi
+
+## Cryptographic Failure
+Kategori ini mengacu pada kegagalan dalam hal kriptografi, yang mana kriptografi ini adalah berkaitan dengan enkripsi dan deskripsi. Enkripsi adalah proses mengubah dari data yang mudah di baca menjadi tak terbaca, enkripsi memastikan mereka yang tidak punya "kunci" nya hanya akan mendapatkan omong kosong.
+Deskripsi adalah mengubah chipertext(enkripsi text) menjadi data semula menggunakan "kunci rahasia". Contoh kegagalan dalam enkripsi:
