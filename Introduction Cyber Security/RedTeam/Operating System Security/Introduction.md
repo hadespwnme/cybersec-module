@@ -5,4 +5,11 @@ Operasi sistem antara lain, MS Windows, macOs, iOS, Chrome Os, Linux, android. T
 </p>
 
 *Computer Hardware* adalah semua part yang ada di dalam komputer dan peripherals(perangkat tambahan) yang dapat kamu sentuh. Hardware termasuk monitor, keyboard, mouse, printer, USB Drive.
-Seperti gambar dibawah, motherboard memiliki banyak component, khususnya, *central processing unit*(CPU) dan *memory chips*(RAM). Meskipun tidak ada di gambar, desktop board terhubung ke storage(HDD/SSD)
+Seperti gambar dibawah, motherboard memiliki banyak component, khususnya, *central processing unit*(CPU) dan *memory chips*(RAM). Meskipun tidak ada di gambar, motherboard terhubung ke storage(HDD/SSD)
+<p align="center">
+<img width="200px" src="https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Introduction%20Cyber%20Security/RedTeam/Operating%20System%20Security/Image/278f4d46966c0914e12f2a56f7e4cfff.png">
+</p>
+
+Motherboard adalah bagian utama dalam komputer, dan semua bagian terhubung padanya, seperti mouse dan keyboard. Akan tetapi itu semua tidak akan berguna jika tidak ada sistem operasi untuk mengontrol dan "mendorong"nya.
+<p align="center">
+<img width="200px src="
