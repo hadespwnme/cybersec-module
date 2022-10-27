@@ -38,3 +38,4 @@ Kita bisa lihat 123,1234,12345,...,123456789 dan 1234567890 didalam daftar terse
 Singkatnya jika penyerang dapat menebak salah satu password media sosial anda, mereka akan tahu data pribadi anda. Oleh karena itu, pilih lah password yang complex dan sulit di terka namun mudah diingat.
 
 ## Weak File Permission
+Keamanan yang tepat adalah tentang hak istimewa. Dalam dunia kerja, kamu ingin dokumen dapat diakses hanya oleh mereka yang berhak membukanya untuk mendapatkan pekerjaan.
