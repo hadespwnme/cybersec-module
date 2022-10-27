@@ -30,3 +30,9 @@ Penyerang dapat meng-exploitasi sebuah website dengan memasukkan kode berbahaya 
 ## Cryptographic Failure
 Kategori ini mengacu pada kegagalan dalam hal kriptografi, yang mana kriptografi ini adalah berkaitan dengan enkripsi dan deskripsi. Enkripsi adalah proses mengubah dari data yang mudah di baca menjadi tak terbaca, enkripsi memastikan mereka yang tidak punya "kunci" nya hanya akan mendapatkan omong kosong.
 Deskripsi adalah mengubah chipertext(enkripsi text) menjadi data semula menggunakan "kunci rahasia". Contoh kegagalan dalam enkripsi:
+1. Mengirim data yang sensitif tanpa enkripsi, contoh menggunakan HTTP alih alih menggunakan HTTPS, HTTP adalah protokol yang digunakan untuk mengakses web. HTTPS adalah HTTP versi *secure*nya. Orang lain dapat membaca hal yang anda kirim menggunakan HTTP, tapi tidak untuk HTTPS, contoh penyerang melakukan sniffing.
+2. Menggunakan algoritma kriptografi yang lemah, salah satu algoritma kriptografi tua adalah menggeser setiap huruf satu persatu. Contoh "HADES IS GOOD GOD" menjadi "IBEFT JT HPPE HPE"
+3. Menggunakan kunci yang lemah untuk melakukan enkripsi, sangat mudah untuk memecahkan kode `1234` sebagai kunci enkripsi.
+<p align="center">
+<img width="200px" src=">
+</p>
