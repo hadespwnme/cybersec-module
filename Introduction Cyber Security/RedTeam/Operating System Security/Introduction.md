@@ -19,3 +19,5 @@ Contoh pemrograman yang setiap hari anda gunakan seperti web browser, sebut saja
 Operasi sistem ini memungkinkan program untuk mengakses hardware sesuai aturan yang spesifik.
 
 Beberapa sistem operasi di desain untuk berjalan di laptop dan *personal computers*. Seperti Windows 11 dan macOS. Dan sebagian di desain spesifik untuk smartphone, seperti Android dan iOS.
+Ada juga beberapa sistem operasi yang di rancang khusus untuk server, seperti **Windows server 2022**, **IBM AIX** dan **oracle solaris**. Finally ada sistem operasi yang dapat di gunakan untuk personal dan juga server, satu contoh yaitu Linux.
+Gambar dibawah menunjukkan sistem operasi yang digunakan untuk berselancar di dunia maya.
