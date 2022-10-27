@@ -22,3 +22,8 @@ Dalam hal ini, server akan menjalankan program tertentu yang dapat di akses web 
 
 Contoh pada web *online shop*, web aplikasi akan membaca tentang produk dan detailnya yang di ambil dari database. Database digunakan untuk menyimpan informasi secara terorganisir. Contoh termasuk informasi tentang produk, customer, dan faktur.
 Database bertanggung jawab akan banyak fungsi, seperti membaca, membuat, menghapus, dan meng-*update* sebuah data.
+Contoh sebuah isi database:
+* *Product database*: berisi semua hal tentang produk, seperti nama produk, harga, foto produk.
+* *Customer database*: berisi tentang data customer seperti nama, alamat, email, no.handphone, bahkan sampai Credit Card.
+
+Kita bisa melihat isi database tersebut, jikalau seorang penyerang berhasil meng-exploitasi database tersebut, tentu akan sangat merugikan sekali.
