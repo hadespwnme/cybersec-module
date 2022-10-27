@@ -12,3 +12,25 @@ Selain itu beberapa user menggunakan perincian yang terkait diri mereka seperti 
 | RANK | Password |
 |:----:|:--------:|
 |  1   | 123456   |
+|2|123456789|
+|3|qwerty|
+|4|password|
+|5|111111|
+|6|12345678|
+|7|abc123|
+|8|1234567|
+|9|password1|
+|10|12345|
+|11|1234567890|
+|12|123123|
+|13|000000|
+|14|iloveyou|
+|15|1234|
+|16|1q2w3e4r5t|
+|17|qwertyuiop|
+|18|123|
+|19|monkey|
+|20|dragon|
+
+Kita bisa lihat 123,1234,12345,...,123456789 dan 1234567890 didalam daftar tersebut. Dictionary words atau kita sebut saja kamus password seperti iloveyou, monkey, dragon adalah kata yang umum digunakan. Kata yamg tidak ada dalam kamus contoh nya qwerty, qwertyuiop, dan 1q2w3e4r5t, itu sangat mudah di prediksi karena mengikuti layout dari keyboard.
+
