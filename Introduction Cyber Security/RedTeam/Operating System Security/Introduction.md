@@ -12,4 +12,8 @@ Seperti gambar dibawah, motherboard memiliki banyak component, khususnya, *centr
 
 Motherboard adalah bagian utama dalam komputer, dan semua bagian terhubung padanya, seperti mouse dan keyboard. Akan tetapi itu semua tidak akan berguna jika tidak ada sistem operasi untuk mengontrol dan "mendorong"nya.
 <p align="center">
-<img width="200px src="
+<img width="350px" src="https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Introduction%20Cyber%20Security/RedTeam/Operating%20System%20Security/Image/cc2330a2c55fe3653b231f53bdaf7654.png">
+</p>
+
+Operasi sistem (OS) adalah lapisan yang berada antara perangkat keras(hardware), software, dan program yang sedang dijalankan.
+Contoh pemrograman yang setiap hari anda gunakan seperti web browser, sebut saja Firefox, chrome, safari, etc. Da
