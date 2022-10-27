@@ -34,5 +34,5 @@ Deskripsi adalah mengubah chipertext(enkripsi text) menjadi data semula mengguna
 2. Menggunakan algoritma kriptografi yang lemah, salah satu algoritma kriptografi tua adalah menggeser setiap huruf satu persatu. Contoh "HADES IS GOOD GOD" menjadi "IBEFT JT HPPE HPE"
 3. Menggunakan kunci yang lemah untuk melakukan enkripsi, sangat mudah untuk memecahkan kode `1234` sebagai kunci enkripsi.
 <p align="center">
-<img width="200px" src=">
+<img width="200px" src="https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Introduction%20Cyber%20Security/RedTeam/Web%20Aplication%20Security/Image/a4aa058f7f07ee91dfcae39e9075bae4.png">
 </p>
