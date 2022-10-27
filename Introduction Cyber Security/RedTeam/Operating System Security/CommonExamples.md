@@ -33,4 +33,8 @@ Selain itu beberapa user menggunakan perincian yang terkait diri mereka seperti 
 |20|dragon|
 
 Kita bisa lihat 123,1234,12345,...,123456789 dan 1234567890 didalam daftar tersebut. Dictionary words atau kita sebut saja kamus password seperti iloveyou, monkey, dragon adalah kata yang umum digunakan. Kata yamg tidak ada dalam kamus contoh nya qwerty, qwertyuiop, dan 1q2w3e4r5t, itu sangat mudah di prediksi karena mengikuti layout dari keyboard.
+![alt](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Introduction%20Cyber%20Security/RedTeam/Operating%20System%20Security/Image/1510e4bd81418a2937060f9c55dad593.gif)
 
+Singkatnya jika penyerang dapat menebak salah satu password media sosial anda, mereka akan tahu data pribadi anda. Oleh karena itu, pilih lah password yang complex dan sulit di terka namun mudah diingat.
+
+## Weak File Permission
