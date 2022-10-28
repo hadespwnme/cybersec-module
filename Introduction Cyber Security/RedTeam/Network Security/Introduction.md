@@ -4,3 +4,4 @@ Istilah lebih tepatnya, keamanan jaringan mengacu pada perangkat, teknologi dan 
 
 Keamanan jaringan terdiri dari berbagai perangkat keras dan solusi perangkat lunak untuk mencapai keamanan jaringan yang diinginkan. Solusi perangkat keras merujuk pada perangkat yang anda tetapkan dijaringan untuk melindungi jaringan anda.
 Perangkat keras mungkin seperti yang ada di bawah ini.
+![alt](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Introduction%20Cyber%20Security/RedTeam/Network%20Security/Image/5a7527aeef27ad74320defaf1bae8d6d.png)
