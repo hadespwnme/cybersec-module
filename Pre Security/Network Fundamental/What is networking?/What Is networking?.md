@@ -14,6 +14,7 @@ Dalam komputasi, jaringan dapat di bentuk nulai dari 2 perangkat hingga miliaran
 Jaringan di integrasikan dalam kehidupan sehari-hari kita. Baik itu mengumpulkan data cuaca, memberikan listrik kerumah atau bahkan mengatur siapa yang lebih dahulu jalan di jalan raya. Karena jaringan sudah tertanam dalam kehidupan modern, jadi jaringan adalah hal yang sangat penting yang perlu di pahami dalam mempelajari*cyber security*.
 
 Mari kita lihat gambar dibawah, alice, bob dan jim membentuk jaringan mereka.
+
 ![alt](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Pre%20Security/Network%20Fundamental/What%20is%20networking%3F/Image/d1v1.png)
 
 Jaringan dapat berbentuk apasaja dan dalam ukuran berapapun.
