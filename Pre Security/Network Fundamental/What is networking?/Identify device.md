@@ -31,6 +31,7 @@ Untuk bisa datang pada lain waktu. Namun kita harus ingat bahwa perangkat bisa b
 ![alt](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Pre%20Security/Network%20Fundamental/What%20is%20networking%3F/Image/1.png)
 
 Kedua perangkat ini dapat menggunakan alamat ip publik mereka untuk berkomunikasi satu sama lain. IP publik diberika oleh Internet Services Provider(ISP) dengan biaya bulanan (tagihanmu!)
+
 ![alt](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Pre%20Security/Network%20Fundamental/What%20is%20networking%3F/Image/2.png)
 
 Semakin banyak perangkat yang terhubung, semakin sulit untuk mendapatkan alamat IP yang umum. Sebagai contoh, Cisco, sebagai salah satu raksasa dalam perindustrian jaringan. Bahwa akan ada 50 miliar perangkat yang terhubung pada 2021. ([CISCO 2021](https://www.cisco.com/c/dam/en_us/about/ac79/docs/innov/IoT_IBSG_0411FINAL.pdf))
@@ -42,10 +43,14 @@ Meski terlihat menakutkan, tapi ini memberikan keuntungan:
 2. Lebih efisien karena metodologi baru.
  
 Screenshot dibawah ini membandingkan antara IPv6 dan IPv4.
+
 ![ipv6](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Pre%20Security/Network%20Fundamental/What%20is%20networking%3F/Image/ipv6.png)
 
 ## MAC Adress
 Perangkat di jaringan semuanya akan memiliki antarmuka jaringan fisik, yang merupakan papan microchip yang ditemukan di motherboard perangkat. Antarmuka jaringan ini diberi alamat unik di pabrik tempat pembuatannya, yang disebut alamat MAC (Media Access Control). Alamat MAC adalah duabelas angka heksadesimal (sistem penomoran enam belas dasar yang digunakan dalam komputasi untuk mewakili angka) dibagi menjadi dua dan dipisahkan oleh titik dua. Titik dua ini dianggap sebagai pemisah. Misalnya, `a4:c3:f0:85:ac:2d`. Enam karakter pertama mewakili perusahaan yang membuat antarmuka jaringan, dan enam karakter terakhir adalah nomor unik.
+
 ![mac](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Pre%20Security/Network%20Fundamental/What%20is%20networking%3F/Image/mac_address.png)
 
 Namun, hal yang menarik dari *MAC address* adalah mereka dapat dipalsukan atau "spoof" dalam proses yang dikenal sebagai *spoofing*. *Spoofing* ini terjadi ketika perangkat jaringan berpura-pura mengidentifikasi sebagai yang lain menggunakan alamat MAC-nya. Ketika ini terjadi, seringkali dapat merusak desain keamanan yang diterapkan dengan buruk yang menganggap bahwa perangkat yang berbicara di jaringan dapat dipercaya. Ambil skenario berikut: *Firewall* dikonfigurasikan untuk mengizinkan komunikasi apa pun "ke dan dari" alamat MAC administrator. Jika perangkat berpura-pura atau "spoof" alamat MAC ini, *firewall* sekarang akan berpikir bahwa ia menerima komunikasi dari administrator padahal sebenarnya tidak.
+
+Tempat-tempat seperti kafe, kedai kopi, dan hotel sama-sama sering menggunakan kontrol alamat MAC saat menggunakan Wi-Fi "Tamu" atau "Publik". Konfigurasi ini dapat menawarkan layanan yang lebih baik, yaitu koneksi yang lebih cepat dengan harga tertentu jika Anda bersedia membayar biaya per perangkat.
