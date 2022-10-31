@@ -25,3 +25,5 @@ Mari kita bagi ketiga cara itu kedalam tabel agar lebih mudah di pahami:
 |Tipe| Tujuan| Penjelasan| Contoh|
 |:--:|:-----:|:---------:|:-----:|
 |Alamat Network|Alamat ini mengidentifikasi awal jaringan yang sebenarnya dan digunakan untuk mengidentifikasi keberadaan jaringan.|Misalnya, perangkat dengan alamat IP 192.168.1.100 akan berada di jaringan yang diidentifikasi oleh 192.168.1.0|192.168.1.0|
+|Alamat Host|Alamat IP di sini digunakan untuk mengidentifikasi perangkat di subnet|Sebagai contoh sebuah perangkat akan memiliki alamat jaringan 192.168.1.1| 192.168.1.100|
+|*Default Gateway*| Alamat gateway default adalah alamat khusus yang ditetapkan untuk perangkat di jaringan yang mampu mengirim informasi ke jaringan lain|Data apa pun yang perlu masuk ke perangkat yang tidak berada di jaringan yang sama (yaitu tidak berada di 192.168.1.0) akan dikirim ke perangkat ini. Perangkat ini dapat menggunakan alamat host apa pun tetapi biasanya menggunakan alamat host pertama atau terakhir dalam jaringan (1 atau .254)| 192.168.1.254|
