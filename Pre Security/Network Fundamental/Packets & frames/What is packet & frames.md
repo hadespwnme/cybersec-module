@@ -13,3 +13,11 @@ Paket memiliki struktur berbeda yang bergantung pada jenis paket yang sedang dik
 Mari kita lanjutkan dengan contoh Protokol Internet kita. Paket yang menggunakan protokol ini akan memiliki satu set header yang berisi potongan informasi tambahan ke data yang dikirim melalui jaringan.
 
 Beberapa tajuk terkenal meliputi:
+
+|Header|Deskripsi|
+|:----:|:-------:|
+|*Time to live*|Bidang ini menetapkan timer kedaluwarsa agar paket tidak menyumbat jaringan Anda jika tidak pernah berhasil mencapai host atau *escape*|
+|*Checksum*|Bidang ini menyediakan pemeriksaan integritas untuk protokol seperti TCP/IP. Jika ada data yang diubah, nilai ini akan berbeda dari yang diharapkan dan karena itu rusak.|
+|*Source Address*|Alamat IP perangkat dimana tempat paket itu **dikirim** sehingga data tahu ke mana **harus kembali**.|
+|*Destination address*|alamat perangkat dikirim kedata sehingga data tahu kemana arah selanjutnya|
+
