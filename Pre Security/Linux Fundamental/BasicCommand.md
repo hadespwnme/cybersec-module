@@ -15,4 +15,6 @@ Pada screenshot di atas, kita bisa melihat ada direktori/folder berikut:
 
 > Tips pro: Anda dapat membuat daftar isi direktori tanpa harus menavigasi ke sana dengan menggunakan ls dan nama direktori. `ls namafolder`
 
-### 
+### Pindah Direktori (cd)
+Sekarang kita tahu folder apa yang ada, kita perlu menggunakan perintah "*cd*" (singkatan dari *change directory*) untuk mengubah ke direktori yang dituju. Katakanlah jika saya ingin membuka direktori "*Pictures*" - saya akan melakukan `cd Pictures`. Dan lagi, kita ingin mengetahui isi direktori "Pictures" ini dan untuk melakukannya, kita akan menggunakan `ls` lagi:
+
