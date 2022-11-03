@@ -9,7 +9,7 @@ Dapat mengoperasikan mesin tanpa tergantung dengan desktop itu cukup penting. La
 |pwd|tampilkan folder sekarang|
 
 ### Daftar file di folder sekarang (ls)
-Sebelum kita dapat melakukan sesuatu seperti mencari tahu isi file atau folder apa pun, kita perlu mengetahui apa yang ada terlebih dahulu. Ini dapat dilakukan dengan menggunakan perintah "ls" (singkatan dari listing)
+Sebelum kita dapat melakukan sesuatu seperti mencari tahu isi file atau folder apa pun, kita perlu mengetahui apa yang ada terlebih dahulu. Ini dapat dilakukan dengan menggunakan perintah `ls` (singkatan dari listing)
 
 Pada screenshot di atas, kita bisa melihat ada direktori/folder berikut:
 
