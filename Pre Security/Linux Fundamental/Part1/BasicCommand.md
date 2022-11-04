@@ -39,3 +39,11 @@ Gambar di bawah ini memperlihatkan kombinasi penggunaan `ls` dan `cat` pada dire
 
 ![cat](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Pre%20Security/Linux%20Fundamental/Image/cat.png)
 
+Kita sudah mendapatkan beberapa pengetahuan sebelumnya, dan dalam hal ini kita melakukan:
+1. Menggunakan `ls` untuk melihat file yang ada dalam folder "tutor". Disini terdapat file yang bernama love.txt
+2. Lalu kita menggunakan `cat love.txt` untuk melihat isi file. Disini kita mengetahui kalau isi dari file love.txt adalah *i love you*.
+
+> Tips pro: kalian bisa menggunakan `cat` untuk melihat isi file tanpa menavigasikannya ke folder tujuan, contoh `cat /home/hades/tutor/love.txt`
+
+Terkadang hal-hal seperti nama pengguna, kata sandi (ya - sungguh...), opsi atau pengaturan konfigurasi disimpan di dalam file di mana `cat` dapat digunakan untuk mengambilnya.
+
