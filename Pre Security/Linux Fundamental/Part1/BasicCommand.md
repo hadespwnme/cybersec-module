@@ -47,3 +47,17 @@ Kita sudah mendapatkan beberapa pengetahuan sebelumnya, dan dalam hal ini kita m
 
 Terkadang hal-hal seperti nama pengguna, kata sandi (ya - sungguh...), opsi atau pengaturan konfigurasi disimpan di dalam file di mana `cat` dapat digunakan untuk mengambilnya.
 
+### Melihat direktori lengkap yang bekerja saat ini (pwd)
+Anda akan melihat saat kalian menavigasikan mesin Linux Anda, nama direktori tempat Anda sedang bekerja akan terdaftar di terminal Anda.
+
+Sangat mudah melupakan direktori lengkap saat kita melakukan navigasi dalam terminal, itu lah sebabnya saya akan memperkenalkan `pwd` yang merupakan kependekan dari **p**rint **w**orking **d**irectory.
+
+Pada contoh contoh sebelumnya kita tahu ada direktori bernama *Pictures*, tapi dimana letak tepatnya dalam *file system* Linux? Nah disitulah kita menggunakan `pwd`.
+
+![pwd]
+
+Mari kita telaah:
+1. Kita tahu kita berada dalam di *Pictures* terimakasih untuk terminal, tapi pada point ini kita tidak mengetahui tepatnya dimana letak *Pictures* ini, untuk memudahkan kita kembali suatu saat.
+2. Kita gunakan `pwd` (*print working directory*) untuk melihat alamat lengkap direktori *Pictures*.
+3. Kita tertolong banget sama Linux, kita mengetahui bahwa folder Pictures ada di `/home/ying/Pictures`.
+4. Dimasa mendatang jika kita ingin pergi ke direktori *Pictures* kita dapat menjalankan `cd /home/ying/Pictures`.
