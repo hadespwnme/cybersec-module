@@ -30,7 +30,7 @@ Utilitas hebat lainnya yang bagus untuk dipelajari adalah penggunaan `grep`. Per
 
 Ambil contoh log akses server web. Dalam hal ini, access.log server web memiliki 253 entri.
 
-![grep1]()
+![wc](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Pre%20Security/Linux%20Fundamental/Image/wc.png)
 
 Menggunakan perintah seperti `cat` tidak akan berhasil dengan baik di sini. Katakanlah misalnya jika kita ingin mencari file log ini untuk melihat hal-hal yang dikunjungi oleh pengguna/alamat IP tertentu? Melihat melalui 253 entri tidak terlalu efisien mengingat kita ingin menemukan nilai tertentu.
 
