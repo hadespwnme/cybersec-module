@@ -17,13 +17,13 @@ Mari kita mulai dengan sederhana dan berasumsi bahwa kita sudah mengetahui nama 
 
 Jika kita mengingat nama file, kita cukup menggunakan `find -name passwords.txt` di mana perintah akan melihat setiap folder di direktori kita saat ini untuk file tertentu seperti di bawah ini.
 
-![find]()
+![find](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Pre%20Security/Linux%20Fundamental/Image/findpw.png)
 
 "Find" telah berhasil menemukan file — ternyata terletak di folder1/passwords.txt — sweet. Namun misalkan kita tidak mengetahui nama file tersebut, atau ingin mencari setiap file yang memiliki ekstensi seperti ".txt". Temukan mari kita melakukannya juga!
 
 Kita cukup menggunakan apa yang dikenal sebagai wildcard (*) untuk mencari apa pun yang memiliki .txt di akhir. Dalam kasus ini, kita ingin menemukan setiap file .txt yang ada di direktori kami saat ini. Kita akan membuat perintah seperti `find -name *.txt` . Di mana "find" dapat menemukan setiap file .txt dan kemudian memberi kita lokasi masing-masing file:
 
-![find2]()
+![find2](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Pre%20Security/Linux%20Fundamental/Image/find%20willcard.png)
 
 ### Penggunaan grep
 Utilitas hebat lainnya yang bagus untuk dipelajari adalah penggunaan `grep`. Perintah `grep` memungkinkan kita untuk mencari isi file untuk nilai tertentu yang kita cari.
