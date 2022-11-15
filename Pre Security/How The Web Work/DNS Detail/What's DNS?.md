@@ -1,3 +1,4 @@
 ### What is DNS?
 DNS (*Domain Name System*) menyediakan cara sederhana bagi kita untuk berkomunikasi dengan perangkat di internet tanpa mengingat bilangan kompleks. Sama seperti setiap rumah memiliki alamat unik untuk mengirim email langsung ke sana, setiap komputer di internet memiliki alamat uniknya sendiri untuk berkomunikasi dengannya yang disebut alamat IP. Alamat IP terlihat seperti 20.205.243.166 berikut, 4 set digit mulai dari 0 - 255 dipisahkan oleh titik. Ketika Anda ingin mengunjungi sebuah situs web, tidak mudah untuk mengingat rangkaian angka yang rumit ini, dan di situlah DNS dapat membantu. Jadi, alih-alih mengingat 20.205.243.166, Anda dapat mengingat github.com sebagai gantinya.
 
+![dns](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Pre%20Security/How%20The%20Web%20Work/DNS%20Detail/Image/ip2domaindrawing.png)
