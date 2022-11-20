@@ -1,0 +1,1 @@
+Sepanjang seri sejauh ini, kita hanya menyimpan teks dalam file menggunakan kombinasi perintah `echo` dan operator pipa (> dan >>). Ini bukan cara yang efisien untuk menangani data saat Anda bekerja dengan file dengan banyak baris dan semacamnya!
