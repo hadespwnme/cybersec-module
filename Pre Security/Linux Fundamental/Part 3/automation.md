@@ -22,6 +22,9 @@ Fitur menarik dari crontab adalah ini juga mendukung wildcard atau asterisk (`*`
 
 Ini akan sedikit membingungkan untuk memulainya, itulah sebabnya ada beberapa *source* yang bagus seperti "[Generator Crontab](https://crontab-generator.org/)" online yang memungkinkan Anda menggunakan aplikasi ramah untuk menghasilkan pemformatan untuk Anda! Serta situs "[Cron Guru](https://crontab.guru/)"!
 
+Crontab dapat diedit dengan menggunakan `crontab -e`, di mana Anda dapat memilih editor (seperti Nano) untuk mengedit crontab Anda.
+
+
 ![cron2](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Pre%20Security/Linux%20Fundamental/Image/cron2.png)
 
 ![cron3](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Pre%20Security/Linux%20Fundamental/Image/cron3.png)
