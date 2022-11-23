@@ -1,3 +1,7 @@
+## METASPLOIT
+
+![msf](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Modules/Metasploit/Image/1519952561201.jpeg)
+
 Metasploit adalah framework eksploitasi yang paling banyak digunakan. Metasploit adalah alat yang ampuh yang dapat mendukung semua fase keterlibatan dalam *penetration testing*, mulai dari *infomation gathering* hingga *post-exploitation*.
 
 Metasploit mempunyai dua versi:
