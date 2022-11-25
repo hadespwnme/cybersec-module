@@ -44,4 +44,33 @@ Perintah `use` dan `show options` yang telah kita lihat sejauh ini identik untuk
 
 Anda dapat meninggalkan konteks menggunakan perintah `back`.
 
+![back](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Modules/Metasploit/Image/backk.png)
+
+Informasi lebih lanjut tentang modul apa pun dapat diperoleh dengan mengetikkan perintah info dalam konteksnya.
+
+![info](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Modules/Metasploit/Image/info.png)
+
+Sebagai alternatif, Anda dapat menggunakan perintah `info` diikuti dengan jalur modul dari prompt msfconsole (misalnya info exploit/windows/smb/ms17_010_eternalblue). Info bukanlah menu *help*; itu akan menampilkan informasi terperinci tentang modul seperti penulisnya, sumber yang relevan, dll.
+
+#### Search
+Salah satu perintah paling berguna di msfconsole adalah `search`. Perintah ini akan mencari database Metasploit Framework untuk modul yang relevan dengan parameter pencarian yang diberikan. Anda dapat melakukan pencarian menggunakan nomor CVE, nama exploit (eternalblue, heartbleed, dll.), atau sistem target.
+
+![search](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Modules/Metasploit/Image/search.png)
+
+*Output* dari perintah `search` memberikan ikhtisar dari setiap modul yang dikembalikan. Anda mungkin melihat kolom “nama” sudah memberikan lebih banyak informasi ketimbang hanya nama modul. Anda dapat melihat tipe modul (auxiliary, exploit, dll.) dan kategori modul (scanner, admin, windows, Unix, dll.). Anda dapat menggunakan modul apa pun yang diberikan dalam hasil pencarian dengan perintah `use` diikuti dengan nomor di awal baris hasil. (mis. `use 0` daripada menggunakan `auxiliary/admin/smb/ms17_010_command`)
+
+Sepotong informasi penting lainnya yang diberikan ada di kolom "rank". Eksploitasi dinilai berdasarkan keandalannya. Tabel di bawah ini memberikan deskripsi masing-masing.
+
+![rank](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Modules/Metasploit/Image/rank.png)
+
+Sumber: [Metasploit](Source: https://github.com/rapid7/metasploit-framework/wiki/Exploit-Ranking)
+
+Anda dapat mengarahkan fungsi pencarian menggunakan kata kunci seperti jenis dan platform.
+
+Misalnya, jika kita ingin hasil pencarian kami hanya menyertakan modul tambahan, kami dapat mengatur jenisnya menjadi tambahan. Tangkapan layar di bawah ini menunjukkan keluaran dari perintah `search type:auxiliary telnet`.
+
+![type-s](https://raw.githubusercontent.com/yingcrackerhades/cybersec-module/main/Modules/Metasploit/Image/type-search.png)
+
+Harap diingat bahwa eksploitasi memanfaatkan kerentanan pada sistem target dan mungkin selalu menunjukkan perilaku yang tidak terduga. Eksploitasi peringkat rendah dapat bekerja dengan sempurna, dan eksploit peringkat yang sangat baik mungkin tidak, atau lebih buruk lagi, merusak sistem target.
+
 
